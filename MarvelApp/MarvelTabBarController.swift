@@ -33,7 +33,7 @@ class MarvelTabBarController: UITabBarController {
     
     func createFavoriteNavigationContoller() -> UINavigationController {
         let favoritesListVC = MainPageVC()
-        favoritesListVC.title = "Favorites"
+        favoritesListVC.title = "Deneme"
         favoritesListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
         return UINavigationController(rootViewController: favoritesListVC)
